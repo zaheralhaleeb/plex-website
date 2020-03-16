@@ -1,0 +1,79 @@
+.container{
+    background-image: url(https://www.plex.tv/wp-content/uploads/2019/01/hero-homepage-2019-1440x948.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* display: flex; */
+    
+}
+.plex{
+    font-size: 70px;
+    margin:35PX;
+    color: blue;
+}
+ul{ 
+    float: right;
+    list-style-type: none;
+    display: flex;
+}
+li{
+    
+     background-color: yellow;
+    font-size: large;
+    margin: 33px;
+    color: blue;
+    padding-right: 25px;
+}
+ 
+
+.streame{
+    text-align: center;
+    color: aqua;
+    padding-top: 200px;
+    font-size: 70px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+    background-color: yellow;
+
+}
+a:hover{
+    background-color: seagreen;
+
+}
+.contain{
+  display: flex; 
+    padding-bottom:100px ;
+
+  background-color: springgreen;
+  
+    
+}
+.contain > div >  :hover{
+    border: 1px solid red;
+    background-color: red;
+}
+.contain > div h2 {
+    background-color: white;
+}
+.contain > div > h2 :hover{
+    background-color: yellow;
+
+}
+.contain > div :active{
+    background-color:white;
+}
+
+ 
+    
+ 
+
+  
+
+
+    
